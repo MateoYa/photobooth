@@ -35,19 +35,16 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
-  camera: ^0.10.5+9
+  camera: ^0.12.2
   path_provider: ^2.1.3
   path: ^1.9.0
-  share: ^2.0.4
   image: ^4.1.7
-  image_cropper: ^6.0.0
+  image_cropper: ^13.0.0
   image_picker: ^1.1.1
   dotted_border: ^2.1.0
-  lindi_sticker_widget: ^0.1.1
-  share_plus: ^9.0.0
-
-native_iamge:
-  path: C:\Users\mateo\Documents\PhotoBooth\native_image\native_image-main\native_image\android
+  camera_desktop: ^2.0.0
+  mailer: ^7.3.0
+  gal: ^2.3.3
 
 dev_dependencies:
   flutter_test:
@@ -72,13 +69,7 @@ flutter:
   uses-material-design: true
 
   assets:
-    - images/file.png
-    - images/file1.png
-    - images/file2.png
-    - images/file3.png
-    - images/file4.png
-    - images/file5.png
-    - images/file6.png
+    - images/ace_white.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
